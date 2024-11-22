@@ -1,19 +1,19 @@
-export interface TabItem {
+export type TabItem = {
   title: string;
   description: string;
   amount: number;
   tags: string[];
   logo: string;
-}
+};
 
-export interface TabData {
+export type TabData = {
   [key: string]: TabItem[];
-}
+};
 
-export interface BountyCardProps {
+export type BountyCardProps = {
   title: string;
   description: string;
   amount: number;
   tags: string[];
   logo: string;
-}
+};

@@ -22,14 +22,14 @@ export default function Navbar() {
           <div className="hidden md:flex flex-1 justify-end items-center space-x-2">
             <Link
               href={links.EMAIL}
-              className="flex items-center bg-gray-200 hover:bg-zinc-800 dark:bg-zinc-900  hover:text-white lg:px-4 lg:py-2 rounded-lg text-[12px] dark:hover:bg-zinc-800 text-black dark:text-gray-300 lg:text-[13px] md:text-[8px] md:py-1 md:px-1"
+              className="flex items-center bg-gray-200  dark:bg-zinc-900 hover:bg-zinc-800  hover:text-white lg:px-4 lg:py-2 rounded-lg text-[12px] dark:hover:bg-zinc-200 dark:hover:text-zinc-800 text-black dark:text-gray-300 lg:text-[13px] md:text-[8px] md:py-1 md:px-1"
             >
               <Coffee className="h-4 w-4 mr-2" />
               Buy me a coffee
             </Link>
             <ModeToggle />
             <Link href={links.GITHUB}>
-              <Github className="h-8 w-8  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-800  rounded-lg p-2" />
+              <Github className="h-8 w-8  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800  rounded-lg p-2" />
             </Link>
           </div>
         </div>

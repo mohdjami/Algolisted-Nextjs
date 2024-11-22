@@ -24,7 +24,7 @@ export function ModeToggle() {
             setIcon("light");
           }}
         >
-          <IconMoon className="h-8 w-8 dark:text-gray-400 text-black  bg-gray-200 hover:bg-zinc-900 hover:text-white dark:hover:bg-zinc-800 dark:bg-zinc-900 rounded-lg p-2" />
+          <IconMoon className="h-8 w-8 dark:text-gray-400 text-black  bg-gray-200 hover:bg-zinc-900 hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800 dark:bg-zinc-900 rounded-lg p-2" />
         </button>
       ) : (
         <button
@@ -33,7 +33,7 @@ export function ModeToggle() {
             setIcon("dark");
           }}
         >
-          <IconSun className="h-8 w-8 dark:text-gray-400 text-black  bg-gray-200 hover:bg-zinc-900 hover:text-white dark:hover:bg-zinc-800 dark:bg-zinc-900 rounded-lg p-2" />
+          <IconSun className="h-8 w-8 dark:text-gray-400 text-black  bg-gray-200 hover:bg-zinc-900 hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800 dark:bg-zinc-900 rounded-lg p-2" />
         </button>
       )}
     </>

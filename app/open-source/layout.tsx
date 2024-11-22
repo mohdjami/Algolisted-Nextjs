@@ -15,8 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <div className="flex min-h-screen bg-white dark:bg-[#313338]">
-      <Sidebar />
-      <div className="flex flex-col w-full">
+      <div className="fixed top-0 left-0 h-full">
+        <Sidebar />
+      </div>
+
+      <div className="flex flex-col w-full ml-[200px]">
         <Navbar />
         <main className="flex-1 lg:py-7 lg:pl-[120px] p-10">{children}</main>
       </div>

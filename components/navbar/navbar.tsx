@@ -9,7 +9,7 @@ import { ModeToggle } from "../mode-toggle";
 
 export default function Navbar() {
   return (
-    <nav className="border-b dark:border-gray-800 dark:bg-[#282a2f] bg-white">
+    <nav className="border-b dark:border-gray-800 dark:dark:bg-[#2B2D31] bg-white">
       <div className="px-2 md:px-4">
         <div className="flex justify-between items-center h-[55px] md:space-x-2 ">
           <div className="flex-1 lg:hidden">

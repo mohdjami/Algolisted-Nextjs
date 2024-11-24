@@ -6,7 +6,7 @@ import { links, menuItems } from "@/lib/data";
 
 export const SidebarContent = ({ className }: { className?: string }) => (
   <nav className="flex flex-col h-full">
-    <div className="flex-shrink-0 pt-[10px]">
+    <div className="flex-shrink-0 pt-[9px]">
       <Link
         href={links.ALGOLISTED}
         className={`flex bg-[#1E1B1B] py-[9px] justify-center rounded-full text-lg font-sans text-gray-300 hover:bg-gray-800 hover:text-white transition-colors`}
@@ -14,7 +14,7 @@ export const SidebarContent = ({ className }: { className?: string }) => (
         Algolisted
       </Link>
     </div>
-    <ul className="space-y-[10px] py-[60px]">
+    <ul className="space-y-[10px] py-[36px]">
       {menuItems.map((item, index) => (
         <li key={index}>
           <Link

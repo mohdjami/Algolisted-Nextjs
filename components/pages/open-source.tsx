@@ -5,10 +5,10 @@ export default function OpenSource() {
   return (
     <div className="max-w-7xl mx-auto">
       <div className="mb-8">
-        <h1 className="text-[24px] md:text-[30px] font-sans font-bold text-black dark:text-white mb-4">
+        <h1 className="text-[24px] md:text-[26px] font-sans font-bold text-black dark:text-white mb-3">
           Open Source
         </h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-6 text-base md:text-lg pr-4 md:pr-36 font-sans">
+        <p className="text-gray-600 dark:text-gray-400 mb-6 text-[14.8px] md:text-lg pr-4 md:pr-32 font-semibold font-sans  ">
           Looking for the ultimate open-source experience? Algolisted is your
           go-to platform, offering a comprehensive collection of resources,
           updates, and community-driven projects. Whether you&apos;re after the
@@ -18,7 +18,7 @@ export default function OpenSource() {
           features, Algolisted ensures you stay ahead while contributing to
           impactful projects. Dive in today and unlock the world of open-source!
         </p>
-        <div className="flex items-start mt-6 md:mt-10">
+        <div className="flex items-start mt-4 md:mt-6">
           <p className="inline-block text-green-600 dark:text-gray-400 bg-green-200 dark:bg-gray-600 p-2 text-xs md:text-sm font-extralight rounded-md">
             We&apos;re always open to voluntary contributions and
             collaborations—reach out at{" "}

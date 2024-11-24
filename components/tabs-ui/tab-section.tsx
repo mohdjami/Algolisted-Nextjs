@@ -8,7 +8,7 @@ import { tabData } from "@/lib/data";
 export default function TabSection() {
   return (
     <Tabs defaultValue="bounties" className="w-full">
-      <TabsList className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-5 lg:w-[840px] mb-8 bg-transparent  gap-1">
+      <TabsList className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-5 lg:w-[840px] mb-8 md:mb-4 bg-transparent  gap-1">
         <TabsTrigger
           value="swags"
           className="flex items-center text-[13px] justify-center px-2 py-2 text-black dark:text-gray-300 rounded-full border border-gray-400 "
@@ -42,7 +42,7 @@ export default function TabSection() {
       </TabsList>
 
       {Object.entries(tabData).map(([key, items]) => (
-        <TabsContent key={key} value={key} className="lg:mt-20 mt-32">
+        <TabsContent key={key} value={key} className="lg:mt-10 mt-32">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:mr-10 lg:mt-10">
             {items.length > 0 ? (
               items.map((item: TabItem, index: Key) => (

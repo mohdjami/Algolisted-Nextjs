@@ -26,17 +26,17 @@ export default function Navbar() {
             </Link>
             <ModeToggle />
             <Link href={links.GITHUB}>
-              <Github className="h-9 w-9  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800  rounded-lg p-2" />
+              <Github className="h-9 w-9 bg-gray-200 dark:bg-zinc-900 hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800  rounded-lg p-2" />
             </Link>
           </div>
         </div>
-        <div className="md:hidden flex  space-x-2 mb-2">
+        <div className="md:hidden flex space-x-2 mb-2">
           <div className="lg:hidden">
             <MobileSidebar />
           </div>
           <Link
             href={links.EMAIL}
-            className="flex items-center justify-center text-center bg-gray-200 dark:bg-zinc-900 w-[600px] max-h-[500px] hover:bg-zinc-800 text-black  hover:text-white py-2 px-5 rounded-lg text-[12px] dark:text-gray-300 lg:text-[13px] md:text-[8px] md:py-1 md:px-1"
+            className="flex items-center justify-center text-center bg-gray-200 w-[600px] max-h-[500px] text-black  hover:text-white dark:text-gray-300 dark:bg-zinc-900 dark:hover:bg-zinc-800 py-2 px-5 rounded-lg text-[12px] lg:text-[13px] md:text-[8px] md:py-1 md:px-1"
           >
             <Coffee className="h-4 w-4 mr-2" />
             Buy me a coffee
@@ -45,7 +45,7 @@ export default function Navbar() {
             {" "}
             <ModeToggle />
             <Link href={links.GITHUB}>
-              <Github className="h-9 w-9  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-800  rounded-lg p-2" />
+              <Github className="h-9 w-9 text-black bg-gray-200 hover:text-white hover:bg-zinc-800 dark:text-gray-300 dark:bg-zinc-900     dark:hover:bg-zinc-800  rounded-lg p-2" />
             </Link>
           </div>
         </div>

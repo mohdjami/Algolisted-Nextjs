@@ -11,31 +11,31 @@ export default function TabSection() {
       <TabsList className="w-full grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2  lg:grid-cols-5 lg:w-[840px] mb-8 md:mb-4 bg-transparent  gap-1">
         <TabsTrigger
           value="swags"
-          className="flex items-center text-[13px] justify-center px-2 py-2 text-black dark:text-gray-300 rounded-full border border-gray-400 "
+          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Beginner Swags
         </TabsTrigger>
         <TabsTrigger
           value="hiring"
-          className="flex items-center text-[13px] justify-center px-2 py-2 text-black dark:text-gray-300 rounded-full border border-gray-400 "
+          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Hiring
         </TabsTrigger>
         <TabsTrigger
           value="bounties"
-          className="flex items-center text-[13px] justify-center px-2 py-2 text-black dark:text-gray-300 rounded-full border border-gray-400 "
+          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Bounties
         </TabsTrigger>
         <TabsTrigger
           value="communities"
-          className="flex items-center text-[13px] justify-center px-2 py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
+          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Communities <Lock className="ml-1 text-green-500" size={16} />
         </TabsTrigger>
         <TabsTrigger
           value="mentorship"
-          className="flex items-center text-[13px] justify-center px-2 py-2 w-full text-black dark:text-gray-300 text-ellipsis rounded-full border border-gray-400"
+          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Personal Mentorship <Star className="ml-1 text-green-500" size={16} />
         </TabsTrigger>

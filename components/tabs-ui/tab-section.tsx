@@ -35,7 +35,7 @@ export default function TabSection() {
         </TabsTrigger>
         <TabsTrigger
           value="mentorship"
-          className="flex items-center text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
+          className="flex items-center md:w-[200px] text-[11px] md:text-[13px] justify-center px-2 md:px-2 py-2 md:py-2 text-black dark:text-gray-300 rounded-full border border-gray-400"
         >
           Personal Mentorship <Star className="ml-1 text-green-500" size={16} />
         </TabsTrigger>

@@ -7,7 +7,7 @@ const page = () => {
     <main className="flex justify-center items-center m-32 ">
       <Link
         href="/open-source"
-        className={buttonVariants({ variant: "outline" })}
+        className={buttonVariants({ variant: "default" })}
       >
         Go to Open Source
       </Link>

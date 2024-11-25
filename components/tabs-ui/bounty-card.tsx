@@ -25,7 +25,7 @@ export default function BountyCard({
             {tags.map((tag, index) => (
               <span
                 key={index}
-                className="px-1 py-1 bg-green-200 font-extralight dark:bg-gray-800 text-black dark:text-gray-300 rounded-full text-sm"
+                className="px-1.5 py-1.5 bg-green-200 font-extralight dark:bg-gray-800 text-black dark:text-gray-300 rounded-full text-xs"
               >
                 {tag}
               </span>

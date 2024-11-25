@@ -12,9 +12,6 @@ export default function Navbar() {
     <nav className="border-b dark:border-gray-800 dark:dark:bg-[#2B2D31] bg-white">
       <div className="px-2 md:px-4">
         <div className="flex justify-between items-center h-[60px] md:space-x-2 ">
-          <div className="md:flex lg:hidden hidden">
-            <MobileSidebar />
-          </div>
           <div className="hidden md:block md:flex-1"></div>
           <div className="flex-grow md:flex-grow-0 px-6">
             <NotificationBanner />
@@ -27,9 +24,9 @@ export default function Navbar() {
               <Coffee className="h-4 w-4 mr-2" />
               Buy me a coffee
             </Link>
-            <ModeToggle className={`h-9 w-9`} />
+            <ModeToggle />
             <Link href={links.GITHUB}>
-              <Github className="h-9 w-9 bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800  rounded-lg p-2" />
+              <Github className="h-9 w-9  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-200 dark:hover:text-zinc-800  rounded-lg p-2" />
             </Link>
           </div>
         </div>
@@ -48,7 +45,7 @@ export default function Navbar() {
             {" "}
             <ModeToggle />
             <Link href={links.GITHUB}>
-              <Github className="h-10 w-10  bg-gray-200   hover:bg-zinc-800 text-black dark:text-gray-300  dark:hover:bg-zinc-200 dark:hover:text-zinc-800 dark:bg-zinc-900   rounded-lg p-2" />
+              <Github className="h-9 w-9  bg-gray-200 dark:bg-zinc-900  hover:bg-zinc-800 text-black dark:text-gray-300  hover:text-white dark:hover:bg-zinc-800  rounded-lg p-2" />
             </Link>
           </div>
         </div>

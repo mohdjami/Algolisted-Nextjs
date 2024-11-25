@@ -15,7 +15,7 @@ export default function BountyCard({
           <div className="w-12 h-12 bg-pink-600 rounded-lg flex items-center justify-center text-white font-bold flex-shrink-0">
             {logo}
           </div>
-          <h3 className="text-lg font-semibold text-black dark:text-white mb-2">
+          <h3 className="text-base md:text-lg font-semibold text-black dark:text-white mb-2">
             {title}
           </h3>
           <p className="text-black dark:text-gray-400 text-sm mb-4">

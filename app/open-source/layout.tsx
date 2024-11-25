@@ -19,7 +19,7 @@ export default function RootLayout({
         <Sidebar />
       </div>
 
-      <div className="flex flex-col w-full ml-[200px]">
+      <div className="flex flex-col w-full lg:ml-[200px]">
         <Navbar />
         <main className="flex-1 lg:py-5 lg:pl-[120px] p-10">{children}</main>
       </div>

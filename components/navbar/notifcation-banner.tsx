@@ -9,7 +9,7 @@ export default function NotificationBanner() {
           Internship
         </span>
         <p className=" text-blue-400 dark:text-[#9DB2D9] text-[10px] sm:text-[13px] py-0.5 sm:py-1">
-          We&apos;re restructuring our website.
+          We&apos;re restructuring our website.&nbsp;
           <strong className="text-violet-400">
             Next.js frontend developers
           </strong>

@@ -8,7 +8,7 @@ export default function OpenSource() {
         <h1 className="text-[24px] md:text-[26.4px] font-extrabold text-black dark:text-[#E5E6E8] mb-3">
           Open Source
         </h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-6 text-[14px] md:text-[16.8px] pr-4 md:pr-32">
+        <p className="text-gray-600 dark:text-[#FFFFFFA6] mb-6 text-[14px] font-medium md:text-[16.8px] pr-4 md:pr-32">
           Looking for the ultimate open-source experience? Algolisted is your
           go-to platform, offering a comprehensive collection of resources,
           updates, and community-driven projects. Whether you&apos;re after the
